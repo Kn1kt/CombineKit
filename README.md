@@ -62,18 +62,8 @@ The main goal of this package is to extend and improve behavior of default opera
 Add the following line to the dependencies in your `Package.swift` file:
 
 ```swift
-.package(url: “https://github.com/Kn1kt/CombineExtensions”, from: “1.0.0”),
+.package(url: “https://github.com/Kn1kt/combine-extensions.git”, from: “1.0.0”),
 ```
-
-### CocoaPods
-
-Add the following line to your **Podfile**:
-
-```rb
-pod 'CombineExtensions'
-```
-
-Finally, add `import CombineExtensions` to your source code.
 
 ## Operators
 
