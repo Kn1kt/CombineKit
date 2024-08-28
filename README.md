@@ -1,5 +1,5 @@
-# 🦿combine-extensions
-**Combine Extensions** is an open-source package of operators, publishers and schedulers for Combine framework.
+# 🦿CombineKit
+**CombineKit** is an open-source package of operators, publishers and schedulers for Combine framework.
 
 This package has three main goals:
 
@@ -55,14 +55,14 @@ The main goal of this package is to extend and improve behavior of default opera
   - Improved `receive(subscriber:)` with no additional thread hops, comparing to the two in `DispatchQueue.main` scheduler
   - Optimized recursive calls which will be executed immediately and will not cause a thread hop
 
-## Adding Combine Extensions as a Dependency
+## Adding CombineKit as a Dependency
 
 ### Swift Package Manager
 
 Add the following line to the dependencies in your `Package.swift` file:
 
 ```swift
-.package(url: “https://github.com/Kn1kt/CombineExtensions”, from: “1.0.0”),
+.package(url: “https://github.com/Kn1kt/CombineKit.git”, from: “1.0.0”),
 ```
 
 ### CocoaPods
@@ -70,14 +70,14 @@ Add the following line to the dependencies in your `Package.swift` file:
 Add the following line to your **Podfile**:
 
 ```rb
-pod 'CombineExtensions'
+pod 'CombineKit'
 ```
 
-Finally, add `import CombineExtensions` to your source code.
+Finally, add `import CombineKit` to your source code.
 
 ## Operators
 
-This section outlines several custom operators `CombineExtensions` provides.
+This section outlines several custom operators `CombineKit` provides.
 
 ### WithLatestFrom
 
@@ -246,7 +246,7 @@ dematerialize: failure(SomeError)
 
 ## Publishers
 
-This section outlines most used custom publishers `CombineExtensions` provides.
+This section outlines most used custom publishers `CombineKit` provides.
 
 ### Publishers.Create
 
@@ -290,7 +290,7 @@ A publisher that performs type erasure by wrapping another `CurrentValuePublishe
 
 ## Schedulers
 
-This section outlines UI specific schedulers `CombineExtensions` provides.
+This section outlines UI specific schedulers `CombineKit` provides.
 
 ### UIScheduler
 

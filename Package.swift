@@ -3,20 +3,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "combine-extensions",
+    name: "CombineKit",
     platforms: [
         .iOS(.v13),
     ],
     products: [
-        .library(name: "CombineExtensions", targets: ["CombineExtensions"]),
+        .library(name: "CombineKit", targets: ["CombineKit"]),
     ],
     targets: [
         .target(
-            name: "CombineExtensions"
+            name: "CombineKit"
         ),
         .testTarget(
-            name: "CombineExtensionsTests",
-            dependencies: ["CombineExtensions"]
+            name: "CombineKitTests",
+            dependencies: ["CombineKit"]
         ),
     ]
 )
