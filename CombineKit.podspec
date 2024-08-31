@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CombineKit'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A collection of operators, publishers and schedulers for Combine'
   s.description      = 'A collection of operators, publishers and schedulers for Combine'
   s.homepage         = 'https://github.com/Kn1kt/CombineKit'
